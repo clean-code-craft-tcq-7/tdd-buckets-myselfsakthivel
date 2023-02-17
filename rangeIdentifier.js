@@ -1,4 +1,4 @@
-export function getRangeOfCurrents(nums) {
+function getRangeOfCurrents(nums) {
     let sortedNums = sortNumsInAscending(nums);
     let cnt = 1;
     let rangeOfCurrents = [];
@@ -29,3 +29,5 @@ function isNumsConsecutive(firstNum, nextNum) {
 function sortNumsInAscending(nums) {
     return nums.sort((a, b) => { return a - b });
 }
+
+module.exports = {sortNumsInAscending, isNumsConsecutive, getRangeOfCurrents};
