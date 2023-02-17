@@ -1,4 +1,4 @@
-const getRangeOfCurrents = require('rangeIdentifier');
+const getRangeOfCurrents = require('../rangeIdentifier');
 const {expect} = require('chai');
 
 it('should return message "No range of Values "for empty array', () => {
