@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { getRangeOfCurrents } from "../rangeIdentifier.js";
+import { getRangeOfCurrents } from "rangeIdentifier.js";
 describe('currentRange', () => {
     it('should return message "No range of Values "for empty array', () => {
         let res = getRangeOfCurrents([]);
